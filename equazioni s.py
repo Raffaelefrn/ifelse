@@ -10,12 +10,12 @@ if  (a==0) and (c==0):
 else:
 	if (a==0):
 		print "L'eq.  non e' di secondo grado"
-		b*(-1)
+		b=b*(-1)
 		x=b/a
 		print"x= ",x
 	if(b==0):
 		print "L'eq. e' pura"
-		c*(-1)
+		c=c*(-1)
 		x1=c/a
 		x2=sqrt(x1)
 		if x2<0:
@@ -25,7 +25,7 @@ else:
 		
 	if(c==0):
 		print"L'eq. e' spuria"
-		b*(-1)
+		b=b*(-1)
 		x2=b/a
 		print"x1=0 e x2=",x2
 	
